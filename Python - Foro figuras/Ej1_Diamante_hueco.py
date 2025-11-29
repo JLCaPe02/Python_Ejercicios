@@ -19,19 +19,4 @@ for j in range(n, 2, -1):
 print(" " * (n), end="")
 print("*") 
 
-
-for i in range(1, altura - 1):
-    if i < n:
-        print(" " * (n - i), end="")
-        print("*", end="")
-        print(" " * ((i*2) - 1), end="" )
-        print("*")
-    else:
-        print(" " * ((i - n) + 2), end="")
-        print("*", end="")
-        print(" " * (2*(altura - i -1) - 1), end="" )
-        print("*")
-print(" " * (n), end="")
-print("*")
-    
     

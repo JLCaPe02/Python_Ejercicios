@@ -2,7 +2,7 @@
 
 n = int(input("Introduzca n para el tamaño de la matriz"))
 
-centro = round(n//2)
+centro = (n//2)
 
 for i in range(0, n):
     for j in range(0, n):
