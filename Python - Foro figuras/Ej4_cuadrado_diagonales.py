@@ -1,7 +1,24 @@
 '''Imprime un cuadrado de lado n con bordes de asteriscos y las dos diagonales marcadas, dejando espacios en el resto.
 Figura para n=7:'''
 
-n = int(input("Introduzca altura de la pirámide "))
+
+n = 7
+centro = n//2
+
+print("*" * n)
+for i in range(1, n - 1):
+    if i<=centro:
+        print("*" + " " * i + "*" + " " * (centro + 1 - i) + "*")
+    else:
+        print("*" + " " * ((n - 1) - i ) + "*" + " " * (i - centro + 1)  + "*")
+
+print("*" * n)
+
+
+
+
+
+'''n = int(input("Introduzca altura de la pirámide "))
 mitad = (n*2)//2
 mitad_n = n//2
 for i in range(1, n*2):
@@ -13,3 +30,4 @@ for i in range(1, n*2):
         else:
             print(" ", end="")
     print()
+'''
