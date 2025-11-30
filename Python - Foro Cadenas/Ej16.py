@@ -12,4 +12,3 @@ for letra in cadena2:
     nueva_cadena += letra
 
 print(f"La concatenación de las dos cadenas anteriores es {nueva_cadena}")
-print(f"La concatenación de las dos cadenas anteriores es {cadena1}{cadena2}")

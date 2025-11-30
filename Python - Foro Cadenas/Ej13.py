@@ -2,8 +2,6 @@
 nueva_cadena = ""
 cadena = input("Introduzca una cadena de caracteres o palabra ")
 
-
-
 for letra in cadena:
     if letra == " ":
         nueva_cadena += ""

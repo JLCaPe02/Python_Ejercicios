@@ -2,15 +2,15 @@
 
 lista = set()
 
-cadena = input("Introduzca una cadena de caracteres ")
+cadena = input("Introduzca una cadena de caracteres ").lower()
 
 for i in range(len(cadena)):
     
-    if cadena[i] == "a" or cadena[i] == "A":
+    if cadena[i] == "a":
         lista.add(cadena[i])
-    elif cadena[i] == "p" or cadena[i] == "P":
+    elif cadena[i] == "p":
         lista.add(cadena[i])
-    elif cadena[i] == "j" or cadena[i] == "J":
+    elif cadena[i] == "j":
         lista.add(cadena[i])
 
 print(f"Los caracteres que concuerdan son: {lista}")

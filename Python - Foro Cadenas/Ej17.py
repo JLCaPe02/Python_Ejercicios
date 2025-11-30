@@ -3,6 +3,7 @@
 cadena = input("Introduzca una cadena de caracteres ")
 nueva_cadena = ""
 contador = 0
+
 for i in range(len(cadena)):
     for letra in cadena:
         if letra == cadena[i]:
